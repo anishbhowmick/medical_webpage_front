@@ -1,8 +1,12 @@
 import React from 'react';
-import { Menu, X, Stethoscope } from 'lucide-react';
+import { Stethoscope, X, Menu } from 'lucide-react';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
+
+  const handleSignIn = () => {
+    window.location.href = 'https://medical-webpage-signin.vercel.app/';
+  };
 
   return (
     <nav className="bg-white shadow-lg fixed w-full z-50">
@@ -18,7 +22,10 @@ export default function Navbar() {
             <a href="#about" className="text-gray-600 hover:text-blue-600">About</a>
             <a href="#team" className="text-gray-600 hover:text-blue-600">Team</a>
             <a href="#faq" className="text-gray-600 hover:text-blue-600">FAQ</a>
-            <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">
+            <button
+              onClick={handleSignIn}
+              className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
+            >
               Sign In
             </button>
           </div>
@@ -38,7 +45,10 @@ export default function Navbar() {
             <a href="#about" className="block px-3 py-2 text-gray-600 hover:text-blue-600">About</a>
             <a href="#team" className="block px-3 py-2 text-gray-600 hover:text-blue-600">Team</a>
             <a href="#faq" className="block px-3 py-2 text-gray-600 hover:text-blue-600">FAQ</a>
-            <button className="w-full text-left px-3 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+            <button
+              onClick={handleSignIn}
+              className="w-full text-left px-3 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+            >
               Sign In
             </button>
           </div>

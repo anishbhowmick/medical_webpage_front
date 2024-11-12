@@ -2,6 +2,10 @@ import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
+  const handleGetStarted = () => {
+    window.location.href = 'https://medical-webpage-signup-aafo.vercel.app/';
+  };
+
   return (
     <div id="home" className="pt-16 bg-gradient-to-br from-blue-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
@@ -15,8 +19,11 @@ export default function Hero() {
               Experience healthcare reimagined. Connect with top doctors, manage your health records,
               and receive personalized care - all in one place.
             </p>
-            <button className="group bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold 
-                             hover:bg-blue-700 transition-colors flex items-center">
+            <button
+              onClick={handleGetStarted}
+              className="group bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold 
+                         hover:bg-blue-700 transition-colors flex items-center"
+            >
               Get Started
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </button>
