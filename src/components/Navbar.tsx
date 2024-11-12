@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Stethoscope className="h-8 w-8 text-blue-600" />
-            <span className="ml-2 text-xl font-bold text-gray-800">HealthCare+</span>
+            <span className="ml-2 text-xl font-bold text-gray-800">Pill-Pals+</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

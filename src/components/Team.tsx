@@ -1,21 +1,24 @@
 import React from 'react';
 import { TeamMember } from '../types';
+import AnishImage from '../assets/images/Anish_Bhowmick.jpg';
+import NeeladriImage from '../assets/images/Neeladri_Hazra.png';
+import SaikatImage from '../assets/images/Saikat_Sarkar.png';
 
 const team: TeamMember[] = [
   {
-    name: 'Dr. Sarah Johnson',
-    role: 'Chief Medical Officer',
-    image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80'
+    name: 'Anish Bhowmick',
+    role: 'Software Developer',
+    image: AnishImage
   },
   {
-    name: 'Dr. Michael Chen',
-    role: 'Head of Cardiology',
-    image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80'
+    name: 'Neeladri Hazra',
+    role: 'Frontend Developer',
+    image: NeeladriImage
   },
   {
-    name: 'Dr. Emily Rodriguez',
-    role: 'Lead Pediatrician',
-    image: 'https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80'
+    name: 'Saikat Sarkar',
+    role: 'Hardware & IoT',
+    image: SaikatImage
   }
 ];
 
@@ -26,7 +29,7 @@ export default function Team() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Team</h2>
           <p className="text-xl text-gray-600">
-            Meet our team of dedicated healthcare professionals
+            Meet our team of dedicated techies
           </p>
         </div>
 

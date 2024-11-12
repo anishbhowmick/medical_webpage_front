@@ -12,7 +12,7 @@ export default function Hero() {
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
           <div className="mb-12 lg:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Your Health, Our Priority
+              Pioneering Tomorrow's Healthcare
               <span className="text-blue-600">.</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8">
@@ -37,7 +37,7 @@ export default function Hero() {
             <div className="absolute -bottom-4 -left-4 bg-white p-4 rounded-lg shadow-lg">
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                <span className="text-sm font-medium">1000+ Doctors Online</span>
+                <span className="text-sm font-medium">100+ Doctors Online</span>
               </div>
             </div>
           </div>

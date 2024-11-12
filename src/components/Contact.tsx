@@ -16,15 +16,15 @@ export default function Contact() {
             <div className="space-y-6">
               <div className="flex items-center">
                 <Mail className="h-6 w-6 text-blue-600 mr-4" />
-                <span>contact@healthcare.com</span>
+                <span>pillpals2024@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-6 w-6 text-blue-600 mr-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 8583045918</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="h-6 w-6 text-blue-600 mr-4" />
-                <span>123 Healthcare Ave, Medical District, NY 10001</span>
+                <span>Kolkata, West Bengal, India</span>
               </div>
             </div>
           </div>

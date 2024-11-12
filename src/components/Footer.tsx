@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <Stethoscope className="h-8 w-8 text-blue-400" />
-              <span className="ml-2 text-xl font-bold">HealthCare+</span>
+              <span className="ml-2 text-xl font-bold">Pill-Pals+</span>
             </div>
             <p className="text-gray-400">
               Transforming healthcare through technology and compassion.
