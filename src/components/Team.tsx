@@ -2,7 +2,7 @@ import React from 'react';
 import { TeamMember } from '../types';
 import AnishImage from '../assets/images/Anish_Bhowmick.jpg';
 import NeeladriImage from '../assets/images/Neeladri_Hazra.png';
-import SaikatImage from '../assets/images/Saikat_Sarkar.png';
+import SaikatImage from '../assets/images/saikat_sarkar.png';
 
 const team: TeamMember[] = [
   {
@@ -35,15 +35,19 @@ export default function Team() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {team.map((member) => (
-            <div key={member.name} className="bg-white rounded-xl overflow-hidden shadow-lg 
-                                            transform hover:-translate-y-1 transition-transform">
+            <div
+              key={member.name}
+              className="bg-white rounded-xl overflow-hidden shadow-lg transform hover:-translate-y-1 transition-transform"
+            >
               <img
                 src={member.image}
                 alt={member.name}
                 className="w-full h-64 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-1">{member.name}</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                  {member.name}
+                </h3>
                 <p className="text-gray-600">{member.role}</p>
               </div>
             </div>
