@@ -5,7 +5,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
 
   const handleSignIn = () => {
-    window.location.href = 'https://medical-webpage-signin.vercel.app/';
+    window.location.href = 'https://medical-webpage-login.vercel.app/';
   };
 
   return (

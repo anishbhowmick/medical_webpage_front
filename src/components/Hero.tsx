@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   const handleGetStarted = () => {
-    window.location.href = 'https://medical-webpage-signup-aafo-git-master-anishbhowmicks-projects.vercel.app/';
+    window.location.href = 'https://medical-webpage-signup-aafo.vercel.app/';
   };
 
   return (
